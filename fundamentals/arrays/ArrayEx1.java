@@ -17,7 +17,7 @@ public class ArrayEx1 {
 
 
         for (i = 0; i >= 0; i++){
-            values[i]
+            values[i];
         }
     }
 
