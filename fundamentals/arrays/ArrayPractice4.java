@@ -17,6 +17,14 @@ public class ArrayPractice4 {
 
         //5 of 8
         int[][] nums = new int[16][32];
-        for (i=0;i < 16;)
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums[i].length; j++) {
+            System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
     }
 }
