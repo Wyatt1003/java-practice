@@ -9,7 +9,7 @@ public class TTT {
             for (int i = 0; i < 3; i++){
                 for (int j = 0; j < 3; j++){
                     Random r = new Random(2);
-                    if (r.nextInt() == 0){
+                    if (r.nextInt() == 1){
                         ttt[i][j] = 'x';
                     }else{
                         ttt[i][j] = 'o';
@@ -25,7 +25,7 @@ public class TTT {
                 System.out.println(ttt[0][0] + " Wins");
                 return;
        } 
-            if (ttt[1][0] == ttt[1][1] && ttt[0][0] == ttt[1][2]){
+            if (ttt[1][0] == ttt[1][1] && ttt[1][0] == ttt[1][2]){
                 System.out.println(ttt[1][0] + " Wins");
                 return;
        } 
